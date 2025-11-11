@@ -1,15 +1,26 @@
 {
   "scripts": {
-    "dev": "cd shoe-site && npm run dev",
-    "start": "cd shoe-site && npm run dev",
-    "build": "cd shoe-site && npm run build"
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@vitejs/plugin-react": "^5.1.0",
     "autoprefixer": "^10.4.21",
+    "jsdom": "^27.1.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.16"
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.8"
   },
   "dependencies": {
-    "react-feather": "^2.0.10"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-feather": "^2.0.10",
+    "react-router-dom": "^7.9.5"
   }
 }
