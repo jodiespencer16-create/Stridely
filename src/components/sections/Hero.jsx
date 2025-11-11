@@ -1,5 +1,5 @@
 import React from "react";
-import heroShoeImg from "../../assets/images/hero-sneaker.webp";
+import heroShoeImg from "../../assets/nike-hero.png";
 
 const Hero = () => (
     <section className="w-full bg-gradient-to-r from-primary via-secondary to-accent">
