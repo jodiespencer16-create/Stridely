@@ -43,51 +43,51 @@ const Footer = () => {
           
           <div>
             <h3 className="font-semibold mb-2 text-xs text-white">Our Products</h3>
-            <ul className="space-y-1 text-xs text-white/60">
-              <li><a href="#" className="hover:text-white transition">The Support Suite</a></li>
-              <li><a href="#" className="hover:text-white transition">The Sales Suite</a></li>
-              <li><a href="#" className="hover:text-white transition">Support</a></li>
-              <li><a href="#" className="hover:text-white transition">Guide</a></li>
+            <ul className="space-y-1 text-xs">
+              <li><a href="#" className="text-white/60 hover:text-white transition">The Support Suite</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">The Sales Suite</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Support</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Guide</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-2 text-xs text-white">Top Features</h3>
-            <ul className="space-y-1 text-xs text-white/60">
-              <li><a href="#" className="hover:text-white transition">Ticketing System</a></li>
-              <li><a href="#" className="hover:text-white transition">Knowledge Base</a></li>
-              <li><a href="#" className="hover:text-white transition">Community Forums</a></li>
-              <li><a href="#" className="hover:text-white transition">Help Desk Software</a></li>
+            <ul className="space-y-1 text-xs">
+              <li><a href="#" className="text-white/60 hover:text-white transition">Ticketing System</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Knowledge Base</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Community Forums</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Help Desk Software</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-2 text-xs text-white">Resources</h3>
-            <ul className="space-y-1 text-xs text-white/60">
-              <li><a href="#" className="hover:text-white transition">Product Support</a></li>
-              <li><a href="#" className="hover:text-white transition">Request Demo</a></li>
-              <li><a href="#" className="hover:text-white transition">Library</a></li>
-              <li><a href="#" className="hover:text-white transition">Peoplepower Blog</a></li>
+            <ul className="space-y-1 text-xs">
+              <li><a href="#" className="text-white/60 hover:text-white transition">Product Support</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Request Demo</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Library</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Peoplepower Blog</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-2 text-xs text-white">Company</h3>
-            <ul className="space-y-1 text-xs text-white/60">
-              <li><a href="#" className="hover:text-white transition">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition">Press</a></li>
-              <li><a href="#" className="hover:text-white transition">Investors</a></li>
-              <li><a href="#" className="hover:text-white transition">Events</a></li>
+            <ul className="space-y-1 text-xs">
+              <li><a href="#" className="text-white/60 hover:text-white transition">About Us</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Press</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Investors</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">Events</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-2 text-xs text-white">Favourite Things</h3>
-            <ul className="space-y-1 text-xs text-white/60">
-              <li><a href="#" className="hover:text-white transition">For Enterprise</a></li>
-              <li><a href="#" className="hover:text-white transition">For Startups</a></li>
-              <li><a href="#" className="hover:text-white transition">For Benchmark</a></li>
-              <li><a href="#" className="hover:text-white transition">For Small Business</a></li>
+            <ul className="space-y-1 text-xs">
+              <li><a href="#" className="text-white/60 hover:text-white transition">For Enterprise</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">For Startups</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">For Benchmark</a></li>
+              <li><a href="#" className="text-white/60 hover:text-white transition">For Small Business</a></li>
             </ul>
           </div>
         </div>
