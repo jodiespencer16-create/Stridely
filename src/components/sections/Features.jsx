@@ -20,30 +20,31 @@ const categories = [
 ];
 
 const Features = () => (
-  <section id="features" className="py-16 bg-neutral-light">
-    <div className="max-w-7xl mx-auto px-4">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark mb-3">
-          New In <br />
+  <section className="py-16 bg-neutral-light">
+    <div className="max-w-7xl mx-auto px-6">
+      <div className="mb-12">
+        <h2 className="text-3xl lg:text-4xl font-bold text-neutral-dark mb-2">
+          New In<br />
           Store Now
         </h2>
-        <p className="text-neutral-dark/60 text-sm max-w-md mx-auto">
+        <p className="text-neutral-dark/60 text-sm">
           Get the latest items immediately with promo prices
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {categories.map((category, idx) => (
           <div
             key={idx}
-            className="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition"
+            className="relative group cursor-pointer overflow-hidden rounded-lg"
           >
             <img
               src={category.image}
               alt={category.name}
-              className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+            <div className="absolute bottom-4 left-4">
               <p className="text-white text-xl font-bold">{category.name}</p>
             </div>
           </div>
