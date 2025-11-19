@@ -4,14 +4,14 @@ const About = () => (
   <section className="py-12 bg-[#F5F5F5]">
     <div className="max-w-4xl mx-auto px-6">
       <div className="flex flex-col lg:flex-row items-center gap-8">
-        <div className="flex-1">
+        <div className="flex-1 order-1">
           <img
             src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop"
             alt="Living room"
             className="rounded-lg w-full object-cover"
           />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 order-2">
           <h2 className="text-2xl lg:text-3xl font-bold text-neutral-dark mb-3">
             We Create Your Home<br />
             More Aesthetic

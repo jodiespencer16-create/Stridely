@@ -7,7 +7,7 @@ const Testimonials = () => (
         What People Are Saying About Us
       </h2>
       <div className="flex flex-col lg:flex-row items-start gap-8">
-        <div className="flex-1">
+        <div className="flex-1 order-2 lg:order-1">
           <div className="flex items-center gap-3 mb-3">
             <img
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop"
@@ -31,7 +31,7 @@ const Testimonials = () => (
             "They are have a perfect touch for make something so professional, interest and useful for a lot of people."
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 order-1 lg:order-2">
           <img
             src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop"
             alt="Living room"
