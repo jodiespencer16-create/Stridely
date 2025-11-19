@@ -1,8 +1,8 @@
 import React from "react";
 
 const Contact = () => (
-  <section className="py-16 bg-neutral-light">
-    <div className="max-w-7xl mx-auto px-6">
+  <section className="py-16 bg-[#F5F5F5]">
+    <div className="max-w-6xl mx-auto px-6">
       <div className="bg-[#1A7B7B] rounded-lg overflow-hidden">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="flex-1 p-12 text-white">
@@ -31,7 +31,6 @@ const Contact = () => (
               src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=300&h=300&fit=crop"
               alt="Lamp"
               className="w-full max-w-[250px] object-contain"
-              loading="lazy"
             />
           </div>
         </div>

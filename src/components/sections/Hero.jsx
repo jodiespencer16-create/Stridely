@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => (
   <>
-    <section className="w-full bg-neutral-dark text-white">
-      <div className="max-w-7xl mx-auto py-12 px-6 flex flex-col lg:flex-row items-center gap-8">
-        <div className="flex-1 text-left">
+    <section className="w-full bg-[#2B2B2B] text-white">
+      <div className="max-w-6xl mx-auto py-12 px-6 flex flex-col lg:flex-row items-center gap-8">
+        <div className="flex-1">
           <div className="flex items-center gap-2 mb-6">
             <div className="w-10 h-10 bg-white rounded flex items-center justify-center">
               <svg className="w-6 h-6 text-neutral-dark" fill="currentColor" viewBox="0 0 24 24">
@@ -29,7 +29,6 @@ const Hero = () => (
             src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=400&fit=crop"
             alt="Yellow sofa"
             className="rounded-lg w-full object-cover"
-            loading="lazy"
           />
           <div className="absolute top-4 right-4 w-12 h-12 rounded-full overflow-hidden border-2 border-white">
             <img
@@ -43,7 +42,7 @@ const Hero = () => (
     </section>
     
     <section className="w-full bg-[#1A7B7B]">
-      <div className="max-w-7xl mx-auto px-6 py-6">
+      <div className="max-w-6xl mx-auto px-6 py-6">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center text-white">
           <div>
             <p className="text-3xl font-bold mb-1">7</p>

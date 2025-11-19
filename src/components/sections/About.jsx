@@ -1,15 +1,14 @@
 import React from "react";
 
 const About = () => (
-  <section className="py-16 bg-white">
-    <div className="max-w-7xl mx-auto px-6">
+  <section className="py-16 bg-[#F5F5F5]">
+    <div className="max-w-6xl mx-auto px-6">
       <div className="flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1">
           <img
             src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=350&fit=crop"
             alt="Living room"
             className="rounded-lg w-full object-cover"
-            loading="lazy"
           />
         </div>
         <div className="flex-1">
