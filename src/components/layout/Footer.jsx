@@ -1,54 +1,93 @@
 import React from "react";
-import { BsInstagram, BsTwitterX } from "react-icons/bs";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-dark text-neutral-light pt-12 pb-6">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-8 border-b border-accent pb-8">
-        <div className="col-span-2 flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-primary">Stridely</h2>
-          <p className="text-sm text-neutral-light/80">
-            Step Up Your Game. Top sneakers, quality, and comfort.
+    <footer className="bg-neutral-dark text-neutral-light pt-16 pb-8">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-8">
+        <div className="lg:col-span-1">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
+              <svg className="w-5 h-5 text-neutral-dark" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+              </svg>
+            </div>
+            <span className="text-lg font-bold">WeCan</span>
+          </div>
+          <p className="text-sm text-neutral-light/70 mb-4">
+            Optima is the world's leading community for creatives to share, grow, and get hired.
           </p>
-          <div className="flex gap-4 mt-2">
-            <a href="https://facebook.com" aria-label="Facebook">
-              <FaFacebook className="text-xl hover:text-accent" />
+          <div className="flex gap-3">
+            <a href="#" aria-label="Facebook" className="hover:text-[#1A7B7B] transition">
+              <FaFacebook className="text-xl" />
             </a>
-            <a href="https://instagram.com" aria-label="Instagram">
-              <BsInstagram className="text-xl hover:text-accent" />
+            <a href="#" aria-label="Twitter" className="hover:text-[#1A7B7B] transition">
+              <FaTwitter className="text-xl" />
             </a>
-            <a href="https://twitter.com" aria-label="Twitter">
-              <BsTwitterX className="text-xl hover:text-accent" />
+            <a href="#" aria-label="Instagram" className="hover:text-[#1A7B7B] transition">
+              <FaInstagram className="text-xl" />
+            </a>
+            <a href="#" aria-label="YouTube" className="hover:text-[#1A7B7B] transition">
+              <FaYoutube className="text-xl" />
             </a>
           </div>
         </div>
-        <div className="col-span-3 grid grid-cols-2 md:grid-cols-3 gap-4">
-          <ul>
-            <li className="font-semibold mb-2">Shop</li>
-            <li><a href="#" className="hover:text-accent">New Arrivals</a></li>
-            <li><a href="#" className="hover:text-accent">Men</a></li>
-            <li><a href="#" className="hover:text-accent">Women</a></li>
-            <li><a href="#" className="hover:text-accent">Sale</a></li>
+        
+        <div>
+          <h3 className="font-semibold mb-4 text-white">Our Products</h3>
+          <ul className="space-y-2 text-sm text-neutral-light/70">
+            <li><a href="#" className="hover:text-white transition">The Support Suite</a></li>
+            <li><a href="#" className="hover:text-white transition">The Sales Suite</a></li>
+            <li><a href="#" className="hover:text-white transition">Support</a></li>
+            <li><a href="#" className="hover:text-white transition">Guide</a></li>
           </ul>
-          <ul>
-            <li className="font-semibold mb-2">About</li>
-            <li><a href="#" className="hover:text-accent">Our Story</a></li>
-            <li><a href="#" className="hover:text-accent">Press</a></li>
-            <li><a href="#" className="hover:text-accent">Careers</a></li>
-            <li><a href="#" className="hover:text-accent">Blog</a></li>
+        </div>
+
+        <div>
+          <h3 className="font-semibold mb-4 text-white">Top Features</h3>
+          <ul className="space-y-2 text-sm text-neutral-light/70">
+            <li><a href="#" className="hover:text-white transition">Ticketing System</a></li>
+            <li><a href="#" className="hover:text-white transition">Knowledge Base</a></li>
+            <li><a href="#" className="hover:text-white transition">Community Forums</a></li>
+            <li><a href="#" className="hover:text-white transition">Help Desk Software</a></li>
           </ul>
-          <ul>
-            <li className="font-semibold mb-2">Support</li>
-            <li><a href="#" className="hover:text-accent">Contact</a></li>
-            <li><a href="#" className="hover:text-accent">FAQs</a></li>
-            <li><a href="#" className="hover:text-accent">Shipping & Returns</a></li>
-            <li><a href="#" className="hover:text-accent">Accessibility</a></li>
+        </div>
+
+        <div>
+          <h3 className="font-semibold mb-4 text-white">Resources</h3>
+          <ul className="space-y-2 text-sm text-neutral-light/70">
+            <li><a href="#" className="hover:text-white transition">Product Support</a></li>
+            <li><a href="#" className="hover:text-white transition">Request Demo</a></li>
+            <li><a href="#" className="hover:text-white transition">Library</a></li>
+            <li><a href="#" className="hover:text-white transition">Peoplepower Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-semibold mb-4 text-white">Company</h3>
+          <ul className="space-y-2 text-sm text-neutral-light/70">
+            <li><a href="#" className="hover:text-white transition">About Us</a></li>
+            <li><a href="#" className="hover:text-white transition">Press</a></li>
+            <li><a href="#" className="hover:text-white transition">Investors</a></li>
+            <li><a href="#" className="hover:text-white transition">Events</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-semibold mb-4 text-white">Favourite Things</h3>
+          <ul className="space-y-2 text-sm text-neutral-light/70">
+            <li><a href="#" className="hover:text-white transition">For Enterprise</a></li>
+            <li><a href="#" className="hover:text-white transition">For Startups</a></li>
+            <li><a href="#" className="hover:text-white transition">For Benchmark</a></li>
+            <li><a href="#" className="hover:text-white transition">For Small Business</a></li>
           </ul>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto text-center mt-8 text-xs text-neutral-light/60">
-        <p>© {new Date().getFullYear()} Stridely. All rights reserved.</p>
+      
+      <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-neutral-light/20">
+        <div className="text-center text-xs text-neutral-light/60">
+          <p>© Copyright 2021. Localio. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   );

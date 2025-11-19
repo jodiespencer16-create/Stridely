@@ -1,39 +1,51 @@
 import React from "react";
-import { FaRunning, FaStar, FaGift } from "react-icons/fa";
 
-const featuresData = [
+const categories = [
   {
-    icon: <FaRunning className="text-3xl text-accent" />,
-    title: "Sport & Performance",
-    description: "Gear up with the latest athletic sneakers engineered for speed, comfort, and style.",
+    name: "Bed",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=300&h=300&fit=crop",
   },
   {
-    icon: <FaStar className="text-3xl text-accent" />,
-    title: "Limited Editions",
-    description: "Grab unique drops and rare colorways—stand out with one-of-a-kind designs.",
+    name: "Sofa",
+    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=300&h=300&fit=crop",
   },
   {
-    icon: <FaGift className="text-3xl text-accent" />,
-    title: "Everyday Classics",
-    description: "Shop iconic kicks and everyday shoes with signature comfort and timeless looks.",
+    name: "Chair",
+    image: "https://images.unsplash.com/photo-1503602642458-232111445657?w=300&h=300&fit=crop",
+  },
+  {
+    name: "Lamp",
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=300&h=300&fit=crop",
   },
 ];
 
 const Features = () => (
   <section id="features" className="py-16 bg-neutral-light">
     <div className="max-w-7xl mx-auto px-4">
-      <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark text-center mb-10">
-        Why Shop With Stridely Kicks?
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {featuresData.map((feature, idx) => (
+      <div className="text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark mb-3">
+          New In <br />
+          Store Now
+        </h2>
+        <p className="text-neutral-dark/60 text-sm max-w-md mx-auto">
+          Get the latest items immediately with promo prices
+        </p>
+      </div>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {categories.map((category, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-xl shadow-lg p-8 text-center flex flex-col items-center transition hover:-translate-y-2 hover:shadow-xl"
+            className="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition"
           >
-            {feature.icon}
-            <h3 className="mt-6 text-xl font-semibold text-primary mb-3">{feature.title}</h3>
-            <p className="text-neutral-dark/80">{feature.description}</p>
+            <img
+              src={category.image}
+              alt={category.name}
+              className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
+              <p className="text-white text-xl font-bold">{category.name}</p>
+            </div>
           </div>
         ))}
       </div>
