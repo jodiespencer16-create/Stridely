@@ -9,13 +9,22 @@ module.exports = {
         secondary: "#1ED760",
         accent: "#FF6B01",
         "neutral-dark": "#222E3A",
-        "neutral-light": "#F5F8FA"
+        "neutral-light": "#F5F8FA",
+        "teal": "#1A7B7B",
+        "gold": "#D4A574",
       },
       fontFamily: {
+        sans: ["Inter", "sans-serif"],
         heading: ["Poppins", "sans-serif"],
-        body: ["Inter", "sans-serif"],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addBase }) {
+      addBase({
+        'body': { fontFamily: 'Inter, sans-serif' },
+        'h1, h2, h3': { fontFamily: 'Poppins, sans-serif' },
+      })
+    }
+  ],
 }
